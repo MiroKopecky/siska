@@ -184,6 +184,9 @@ a button:hover {
 }
 
 @media (max-width: 768px){
+	.box{
+		top: 150px;
+	}
 	#date {
 		width: 40vh;
 		margin-top: 32vh;
@@ -262,7 +265,7 @@ a button:hover {
 
 .box{
 	position: absolute;
-	top: 150px;
+	top: 100px;
 	padding-left: 50%;
 }
 
