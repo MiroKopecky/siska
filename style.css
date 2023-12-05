@@ -28,14 +28,31 @@ body {
 	text-transform: uppercase;
 	width: 70%;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 
 .small2 {
 	padding-top: 50px;
 }
 
+button span {
+	font-style: italic;
+	font-size: 13px;
+}
+
 p span {
-	color: #603232;
+	font-style: italic;
+	font-size: 17px;
+}
+
+a span {
+	font-style: italic;
+	font-size: 13px;
+}
+
+.small2 span {
+	font-style: italic;
+	font-size: 13px;
 }
 
 
@@ -133,7 +150,7 @@ a button {
 	font-family: inherit;
 	background: rgba(255, 255, 255, 0.342);
 	border: none;
-	border-radius: 20px;
+	border-radius: 50px;
 	padding: 12px 20px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -169,7 +186,7 @@ a button:hover {
 @media (max-width: 768px){
 	#date {
 		width: 40vh;
-		margin-top: 38vh;
+		margin-top: 32vh;
 	}
 	#name {
 		margin-top: 10vh;
@@ -211,11 +228,6 @@ a button:hover {
 	text-align: left;
 }
 
-.h2 > span {
-	border-bottom: 1px #A4A4A4 solid;
-	color: #A4A4A4;
-}
-
 .text {
 	color: black;
 	font-family: inherit;
@@ -245,5 +257,47 @@ a button:hover {
 	.padding a {
 		padding: 0;
 		font-size: 15px;
+	}
+}
+
+.box{
+	position: absolute;
+	top: 150px;
+	padding-left: 50%;
+}
+
+.box span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3)
+{
+	animation-delay: -0.4s;
+}
+
+@keyframes animate{
+	
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
 	}
 }
