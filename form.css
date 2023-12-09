@@ -289,3 +289,10 @@ button:hover {
 		margin-bottom: 20px;
 	}
 }
+
+@media (max-width: 540px){
+	.cancel {
+		margin-right: 0;
+	}
+}
+
