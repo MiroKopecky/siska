@@ -71,7 +71,6 @@ input[type=radio]:checked+label {
   text-align: center;
   padding: 30px 0;
   margin: 50px auto;
-  border-radius: 27px;
   text-transform: uppercase;
 }
 
@@ -96,7 +95,6 @@ input[type=text], input[type=email] {
 	background-color: #ffffff00;
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
-	border-radius: 15px;
 	padding: 15px 10px;
 	margin-top: 10px;
 }
@@ -114,7 +112,6 @@ input[type=text]:focus, input[type=email]:focus {
 	background-color: #ffffff00;
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
-	border-radius: 15px;
 	padding: 15px 10px;
 	outline: none;
 	color: black;
@@ -131,7 +128,6 @@ textarea {
 	background-color: #ffffff00;
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
-	border-radius: 15px;
 	padding: 15px 10px;
 	resize: none;
 	font-size: 13px;
@@ -152,7 +148,6 @@ textarea:focus {
 	background-color: #ffffff00;
 	border: 1px solid #C9C9C9;
 	box-sizing: border-box;
-	border-radius: 15px;
 	padding: 15px 10px;
 	outline: none;
 	color: black;
@@ -163,7 +158,6 @@ button {
 	font-family: inherit;
 	background: #A4A4A4;
 	border: none;
-	border-radius: 20px;
 	padding: 12px 20px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -196,7 +190,6 @@ button:hover {
 	text-align: center;
 	padding: 30px 0;
 	margin: 50px auto;
-	border-radius: 27px;
 	text-transform: uppercase;
 	position: absolute;
 	top: 40%;
@@ -256,7 +249,6 @@ button:hover {
 	#customForm {
 		width: 70%;
 		font-size: 18px;
-		border-radius: 17px;
 		padding: 20px;
 	}
 	#customForm #line {
@@ -287,7 +279,6 @@ button:hover {
 	}
 	#successMessage {
 		width: 90%;
-		border-radius: 17px;
 	}
 	.option {
 		margin-left: 5px;
